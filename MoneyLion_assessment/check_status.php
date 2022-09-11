@@ -7,7 +7,8 @@ if (empty($_GET['email']) || empty($_GET['featureName'])) {
     exit();
 }
 
-require_once($FIXPATH . "API/inc/db.inc");
+require_once("MoneyLion/inc/db.inc");
+require_once("MoneyLion/inc/func_utilities.inc");
 
 $user = get_user($_GET['email']);
 if (!empty($user['userId'])) {

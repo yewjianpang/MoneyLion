@@ -2,6 +2,7 @@
 $RDSDB['host'] = '';
 $RDSDB['username'] = '';
 $RDSDB['password'] = '';
+$RDSDB['database'] = '';
 
 if( !isset( $sys['db'] ) )
 {

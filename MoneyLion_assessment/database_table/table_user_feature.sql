@@ -13,7 +13,7 @@ CREATE TABLE `user_feature` (
   `featureId` int(10) NOT NULL,
   `enable` bit NOT NULL,
   `create_date` datetime NOT NULL DEFAULT NOW(),
-  `modify_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `modify_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 ALTER TABLE `user_feature`
