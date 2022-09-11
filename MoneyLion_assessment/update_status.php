@@ -26,7 +26,7 @@ if (!empty($user['userId'])) {
             $query = data($sql);
         }
     }
-}
+} 
 
 if ($query>0) {
     http_response_code(200);
